@@ -33,13 +33,17 @@ st.markdown(
 )
 
 # Load Data
-df_reshaped = pd.read_csv('final_merged.csv')
-
 @st.cache_data
-def load_shapefile():
-    return gpd.read_file("shapefiles/kbd_with_names.shp")
+def load_data():
+    df = pd.read_csv("final_merged.csv")
+    gdf = gpd.read_file("shapefiles/kbd_with_names.shp")
+    
+    # Ensure geometries are valid
+    gdf = gdf[gdf.geometry.notnull()]
+    
+    return df, gdf
 
-gdf = load_shapefile()
+df_reshaped, gdf = load_data()
 
 # Sidebar Filters
 with st.sidebar:
@@ -50,33 +54,17 @@ with st.sidebar:
     area_list = sorted(df_selected_year["Area_Name"].dropna().astype(str).unique())
     selected_area = st.selectbox('Select an Area', area_list)
 
-# Function to Create Map
-def create_map(selected_area):
-    m = folium.Map(location=[-1.286389, 36.817223], zoom_start=6)
-    if gdf.crs and gdf.crs != "EPSG:4326":
-        gdf.to_crs("EPSG:4326", inplace=True)
-    gdf_selected = gdf[gdf['AreaName'] == selected_area] 
-    if not gdf_selected.empty:
-        folium.GeoJson(
-            gdf_selected,
-            name="Selected Area",
-            style_function=lambda feature: {
-                "fillColor": "green",
-                "color": "black",
-                "weight": 2,
-                "fillOpacity": 0.6,
-            }
-        ).add_to(m)
-    return m
-
 # Main UI
 st.title("Kenyan Terrestrial Ecosystems Biodiversity Analysis")
 st.subheader(f"Map of {selected_area} in {selected_year}")
-folium_static(create_map(selected_area))
+
+# Add an image to the Streamlit app
+st.image("WhatsApp Image 2025-02-27 at 8.54.26 AM.jpeg", caption="Kenyan Biodiversity", use_container_width=True)
 
 # Show area data
 st.subheader("Shapefile Data")
 st.write(gdf[gdf['AreaName'] == selected_area])
+
 
 # ======================== Adjusted Visualizations ========================
 
