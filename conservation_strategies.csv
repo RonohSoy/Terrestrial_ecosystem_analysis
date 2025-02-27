@@ -1,0 +1,84 @@
+Area,Keywords,Strategies
+Aberdare National Park,"elephant, wildlife, translocation, kenya, kws, elephants, national, population, mwea, conservation","wildlife, conservation"
+Amboseli National Park,"amboseli, wildlife, conservation, national, park, maasai, community, local, reserve, water","wildlife, conservation"
+Central Island National Park,"lake, park, turkana, island, fish, western, world, home, shores, birds",
+Chyulu Hills National Park,"hills, project, chyulu, carbon, conservation, communities, local, trust, kenya, forests",conservation
+Hell's Gate National Park,"park, rock, geothermal, wild, ksh, sites, ideal, take, wildlife, naivasha",wildlife
+Kora National Park,"park, adamson, river, ksh, wildlife, kora, george, national, tana, special",wildlife
+Lake Nakuru National Park,"lake, wwf, conservation, nakuru, catchment, project, national, park, development, world",conservation
+Malka Mari National Park,"park, sp, wildlife, kenya, kshs, usd, area, road, town, national",wildlife
+Marsabit National Park,"park, ksh, forest, wildlife, kenya, seats, elephants, also, water, camping",wildlife
+Masai Mara National Park,"mara, conservancies, wildlife, maasai, masai, conservancy, triangle, national, local, people",wildlife
+Meru National Park,"area, national, park, species, meru, conservation, kenya, complex, protected, world",conservation
+Mount Elgon National Park,"elgon, mount, species, world, kenya, heritage, ecological, mountain, one, unique",
+Mount Kenya National Park,"bongo, kenya, wildlife, mountain, mount, conservation, breeding, trek, conservancy, rewilding","wildlife, conservation"
+Mount Longonot National Park,"park, ksh, wildlife, longonot, national, seats, camping, mt, crater, special",wildlife
+Nairobi National Park,"park, nairobi, conservation, national, wildlife, efforts, habitat, species, urban, restoration","conservation, wildlife, habitat, restoration"
+Ol Donyo Sabuk National Park,"park, ksh, wildlife, kenya, visitors, kws, special, summit, camping, donyo",wildlife
+Ruma National Park,"park, kenya, ruma, wildlife, ksh, national, seats, special, per, less",wildlife
+Saiwa Swamp National Park,"park, swamp, ksh, saiwa, kenya, nature, forest, offers, seats, wildlife",wildlife
+Tsavo East National Park,"conservation, areas, elephant, wildlife, tsavo, protected, within, kenya, area, populations","conservation, wildlife"
+Tsavo West National Park,"wildlife, tsavo, park, ksh, lake, jipe, per, kenya, also, campsites",wildlife
+Arawale National Reserve,,
+Bisanadi National Reserve,"wildlife, park, reserve, ksh, seats, wilderness, meru, species, river, national",wildlife
+Boni National Reserve,"wildlife, conservation, forests, kenya, hirola, forest, coastal, species, duiker, kenyan","wildlife, conservation"
+Buffalo Springs National Reserve,,
+Dodori National Reserve,"wildlife, conservation, forests, kenya, hirola, forest, coastal, species, duiker, kenyan","wildlife, conservation"
+Kakamega Forest National Reserve,"forest, species, bird, kakamega, kenya, road, also, ksh, include, cobra",
+Masai Mara National Reserve,"mara, conservancies, wildlife, maasai, masai, conservancy, triangle, national, local, people",wildlife
+Mwea National Reserve,"wildlife, reserve, ksh, campsites, mwea, rivers, water, seats, park, special",wildlife
+Rimoi National Reserve,"kenya, national, kerio, reserve, wildlife, help, rimoi, hotel, landscapes, activities",wildlife
+Samburu National Reserve,"samburu, reserve, kenya, wildlife, also, safari, national, animals, visit, one",wildlife
+Shimba Hills National Reserve,"ksh, kenya, sable, shimba, hills, reserve, wildlife, forest, kws, per",wildlife
+Tana River Primate Reserve,"cookies, trending, diseases, cause, global, deaths, country, dropdown, stay, current",
+Witu Forest Reserve,,
+Kisumu Impala Sanctuary,"kisumu, visitors, sanctuary, wildlife, located, ksh, bird, camping, hippo, point",wildlife
+Nairobi Animal Orphanage,"wildlife, animal, conservation, visitors, nairobi, orphanage, facility, ksh, kenya, world","wildlife, conservation"
+Nairobi Safari Walk,"wildlife, nairobi, safari, walk, visitors, also, conservation, ksh, flora, fauna","wildlife, conservation"
+Aberdare National Park,https://www.kws.go.ke/article/kenya-wildlife-service-launches-crucial-elephant-translocation-mwea-national-reserve,"elephant, wildlife, translocation, kenya, kws, elephants, national, population, mwea, conservation","wildlife, conservation",0.9754
+Aberdare National Park,https://www.kws.go.ke/article/kenya-wildlife-service-launches-crucial-elephant-translocation-mwea-national-reserve,"elephant, wildlife, translocation, kenya, kws, elephants, national, population, mwea, conservation","wildlife, conservation",0.9754
+Amboseli National Park,https://conbio.org/groups/sections/africa/act/the-history-of-conservation-in-amboseli-national-park,"amboseli, wildlife, conservation, national, park, maasai, community, local, reserve, water","wildlife, conservation",0.995
+Central Island National Park,https://www.kws.go.ke/central-island-national-park,"lake, park, turkana, island, fish, western, world, home, shores, birds",,0.9806
+Chyulu Hills National Park,https://www.conservation.org/projects/chyulu-hills-carbon-project,"hills, project, chyulu, carbon, conservation, communities, local, trust, kenya, forests",conservation,0.9998
+Hell's Gate National Park,https://www.kws.go.ke/hells-gate-national-park,"park, rock, geothermal, wild, ksh, sites, ideal, take, wildlife, naivasha",wildlife,0.9972
+Kora National Park,https://www.kws.go.ke/kora-national-park,"park, adamson, river, ksh, wildlife, kora, george, national, tana, special",wildlife,0.9961
+Lake Nakuru National Park,https://origin-panda.wwf-sites.org/wwf_offices/regional_office_for_africa/our_solutions/projects/?uProjectID=KE0069,"lake, wwf, conservation, nakuru, catchment, project, national, park, development, world",conservation,0.9968
+Malka Mari National Park,https://www.kws.go.ke/oldweb/content/malka-mari-national-park,"park, sp, wildlife, kenya, kshs, usd, area, road, town, national",wildlife,0.8088
+Marsabit National Park,https://www.kws.go.ke/marsabit-national-park-reserve,"park, ksh, forest, wildlife, kenya, seats, elephants, also, water, camping",wildlife,0.9985
+Masai Mara National Park,https://www.masaimara.com/conservation-masai-mara.php,"mara, conservancies, wildlife, maasai, masai, conservancy, triangle, national, local, people",wildlife,0.9988
+Meru National Park,https://whc.unesco.org/en/tentativelists/5509/,"area, national, park, species, meru, conservation, kenya, complex, protected, world",conservation,0.9986
+Mount Elgon National Park,https://whc.unesco.org/en/tentativelists/6659/,"elgon, mount, species, world, kenya, heritage, ecological, mountain, one, unique",,0.9998
+Mount Kenya National Park,https://mountkenyawildlifeconservancy.org/,"bongo, kenya, wildlife, mountain, mount, conservation, breeding, trek, conservancy, rewilding","wildlife, conservation",0.9983
+Mount Longonot National Park,https://www.kws.go.ke/mount-longonot-national-park,"park, ksh, wildlife, longonot, national, seats, camping, mt, crater, special",wildlife,0.9919
+Nairobi National Park,https://nairobipark.org/conservation-at-nairobi-n-park/,"park, nairobi, conservation, national, wildlife, efforts, habitat, species, urban, restoration","conservation, wildlife, habitat, restoration",0.999
+Ol Donyo Sabuk National Park,https://www.kws.go.ke/ol-donyo-sabuk-national-park,"park, ksh, wildlife, kenya, visitors, kws, special, summit, camping, donyo",wildlife,0.9837
+Ruma National Park,https://www.kws.go.ke/ruma-national-park,"park, kenya, ruma, wildlife, ksh, national, seats, special, per, less",wildlife,0.9972
+Saiwa Swamp National Park,https://www.kws.go.ke/saiwa-swamp-national-park,"park, swamp, ksh, saiwa, kenya, nature, forest, offers, seats, wildlife",wildlife,0.9927
+Tsavo East National Park,https://tsavotrust.org/is-conservation-working/,"conservation, areas, elephant, wildlife, tsavo, protected, within, kenya, area, populations","conservation, wildlife",0.9991
+Tsavo West National Park,https://www.kws.go.ke/tsavo-west-national-park,"wildlife, tsavo, park, ksh, lake, jipe, per, kenya, also, campsites",wildlife,0.8787
+Bisanadi National Reserve,https://www.kws.go.ke/bisanadi-national-reserve,"wildlife, park, reserve, ksh, seats, wilderness, meru, species, river, national",wildlife,-0.6858
+Boni National Reserve,https://www.zsl.org/what-we-do/projects/protecting-boni-dodori-forest/protecting-boni-dodori-forest,"wildlife, conservation, forests, kenya, hirola, forest, coastal, species, duiker, kenyan","wildlife, conservation",0.9889
+Dodori National Reserve,https://www.zsl.org/what-we-do/projects/protecting-boni-dodori-forest/protecting-boni-dodori-forest,"wildlife, conservation, forests, kenya, hirola, forest, coastal, species, duiker, kenyan","wildlife, conservation",0.9889
+Kakamega Forest National Reserve,https://www.kws.go.ke/kakamega-forest-national-reserve,"forest, species, bird, kakamega, kenya, road, also, ksh, include, cobra",,0.9986
+Masai Mara National Reserve,https://www.masaimara.com/conservation-masai-mara.php,"mara, conservancies, wildlife, maasai, masai, conservancy, triangle, national, local, people",wildlife,0.9988
+Mwea National Reserve,https://www.kws.go.ke/mwea-national-reserve,"wildlife, reserve, ksh, campsites, mwea, rivers, water, seats, park, special",wildlife,0.9964
+Rimoi National Reserve,https://abirikenya.com/counties/elgeyo-marakwet-county/rimoi-national-reserve/,"kenya, national, kerio, reserve, wildlife, help, rimoi, hotel, landscapes, activities",wildlife,0.9978
+Samburu National Reserve,https://www.samburureserve.com/,"samburu, reserve, kenya, wildlife, also, safari, national, animals, visit, one",wildlife,0.9981
+Shimba Hills National Reserve,https://www.kws.go.ke/shimba-hills-national-reserve,"ksh, kenya, sable, shimba, hills, reserve, wildlife, forest, kws, per",wildlife,0.9898
+Tana River Primate Reserve,https://documents.worldbank.org/en/publication/documents-reports/documentdetail/311411468047336395,"cookies, trending, diseases, cause, global, deaths, country, dropdown, stay, current",,0.8126
+Kisumu Impala Sanctuary,https://www.kws.go.ke/kisumu-impala-sanctuary,"kisumu, visitors, sanctuary, wildlife, located, ksh, bird, camping, hippo, point",wildlife,0.998
+Nairobi Animal Orphanage,https://www.kws.go.ke/nairobi-animal-orphanage,"wildlife, animal, conservation, visitors, nairobi, orphanage, facility, ksh, kenya, world","wildlife, conservation",0.965
+Nairobi Safari Walk,https://www.kws.go.ke/nairobi-safari-walk,"wildlife, nairobi, safari, walk, visitors, also, conservation, ksh, flora, fauna","wildlife, conservation",-0.8856
+Aberdare National Park,https://www.kws.go.ke/article/kenya-wildlife-service-launches-crucial-elephant-translocation-mwea-national-reserve,"elephant, wildlife, translocation, kenya, kws, elephants, national, population, mwea, conservation","wildlife, conservation",0.9754
+Amboseli National Park,https://conbio.org/groups/sections/africa/act/the-history-of-conservation-in-amboseli-national-park,"amboseli, wildlife, conservation, national, park, maasai, community, local, reserve, water","wildlife, conservation",0.995
+Central Island National Park,https://www.kws.go.ke/central-island-national-park,"lake, park, turkana, island, fish, western, world, home, shores, birds",,0.9806
+Chyulu Hills National Park,https://www.conservation.org/projects/chyulu-hills-carbon-project,"hills, project, chyulu, carbon, conservation, communities, local, trust, kenya, forests",conservation,0.9998
+Hell's Gate National Park,https://www.kws.go.ke/hells-gate-national-park,"park, rock, geothermal, wild, ksh, sites, ideal, take, wildlife, naivasha",wildlife,0.9972
+Kora National Park,https://www.kws.go.ke/kora-national-park,"park, adamson, river, ksh, wildlife, kora, george, national, tana, special",wildlife,0.9961
+Lake Nakuru National Park,https://origin-panda.wwf-sites.org/wwf_offices/regional_office_for_africa/our_solutions/projects/?uProjectID=KE0069,"lake, wwf, conservation, nakuru, catchment, project, national, park, development, world",conservation,0.9968
+Malka Mari National Park,https://www.kws.go.ke/oldweb/content/malka-mari-national-park,"park, sp, wildlife, kenya, kshs, usd, area, road, town, national",wildlife,0.8088
+Marsabit National Park,https://www.kws.go.ke/marsabit-national-park-reserve,"park, ksh, forest, wildlife, kenya, seats, elephants, also, water, camping",wildlife,0.9985
+Masai Mara National Park,https://www.masaimara.com/conservation-masai-mara.php,"mara, conservancies, wildlife, maasai, masai, conservancy, triangle, national, local, people",wildlife,0.9988
+Meru National Park,https://whc.unesco.org/en/tentativelists/5509/,"area, national, park, species, meru, conservation, kenya, complex, protected, world",conservation,0.9986
+Mount Elgon National Park,https://whc.unesco.org/en/tentativelists/6659/,"elgon, mount, species, world, kenya, heritage, ecological, mountain, one, unique",,0.9998
+Mount Kenya National Park,https://mountkenyawildlifeconservancy.org/,"bongo, kenya, wildlife, mountain, mount, conservation, breeding, trek, conservancy, rewilding","wildlife, conservation",0.9983
