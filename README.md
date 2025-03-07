@@ -21,9 +21,9 @@ To assess land cover changes and ecosystem health in protected areas by integrat
 ## Data Understanding
 Data sources;
 
-1. IUCN Biodiversity data https://www.iucnredlist.org/resources
-2. PROTECTED PLANET Protected area data WDPA_WDOECM_Feb2025_Public_KEN_csv https://www.protectedplanet.net/en/searchareassearch_term=KENYA&geo_type=sit
-3. RCOE-ESA PROJECT https://rcoe-geoportal.rcmrd.org/
+1. [IUCN Biodiversity data](https://www.iucnredlist.org/resources)
+2. [PROTECTED PLANET Protected area data WDPA_WDOECM_Feb2025_Public_KEN_csv](https://www.protectedplanet.net/en/searchareassearch_term=KENYA&geo_type=sit)
+3. [RCOE-ESA PROJECT](https://rcoe-geoportal.rcmrd.org/)
 ## Data Collection and Preprocessing
 The analysis utilizes multiple data sources, including satellite imagery and textual datasets. Remote sensing data were derived from Sentinel-2 imagery, focusing on generating key environmental indices—Normalized Difference Vegetation Index (NDVI), Normalized Difference Water Index (NDWI), and Bare Soil Index (BSI). These indices were computed using Google Earth Engine (GEE) and Python-based geospatial libraries. Preprocessing steps involved atmospheric correction, cloud masking, and resampling to ensure consistency in spatial resolution.
 In parallel, textual data were collected from research articles, policy documents, and conservation reports. This dataset was prepared for NLP tasks through standard text preprocessing techniques, including tokenization, stop-word removal, and lemmatization. These steps were implemented using Python libraries such as NLTK and spaCy. The textual data were then structured for analysis using term frequency-inverse document frequency (TF-IDF) and topic modeling methods.
