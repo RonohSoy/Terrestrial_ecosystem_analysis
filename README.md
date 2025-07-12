@@ -113,7 +113,7 @@ Strengthen Conservation Policies for Degraded Areas: Regions identified with hig
 ## Model Deployment
 Deploy a scalable ecosystem classification and NLP analysis system, integrating APIs, dashboards, and automated model updates for real-time monitoring and insights.
 
-Deployment link [Streamlit App](http://localhost:8501/)
+Deployment link [NatureScope.ke](http://localhost:8501/)
 ## Next Steps
 Model monitoring
 
