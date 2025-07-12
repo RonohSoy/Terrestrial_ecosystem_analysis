@@ -2,7 +2,7 @@
 Terrestrial ecosystem analysis involves studying the structure, function, and dynamics of these land-based ecosystems.
 
 <p align="center">
-  <img src="https://pub.mdpi-res.com/land/land-12-02052/article_deploy/html/images/land-12-02052-g001.png?1699698383" alt="Description" width="600">
+  <img src="https://github.com/user-attachments/assets/c59f1ba4-5fc2-4dc4-a9ed-420f710e1d83" alt="Description" width="600">
 </p>
 
 ## Overview
