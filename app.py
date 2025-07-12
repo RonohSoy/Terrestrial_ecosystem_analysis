@@ -37,6 +37,11 @@ st.markdown(
 def load_data():
     df = pd.read_csv("final_merged.csv")
     gdf = gpd.read_file("shapefiles/kbd_with_names.shp")
+
+    print("Shapefile columns:", gdf.columns.tolist())
+
+    # Rename the column to match df
+    gdf = gdf.rename(columns={'NAME': 'Area_Name'})
     
     # Ensure geometries are valid
     gdf = gdf[gdf.geometry.notnull()]
@@ -63,7 +68,7 @@ st.image("WhatsApp Image 2025-02-27 at 09.50.30 AM.jpg", caption="Kenyan Biodive
 
 # Show area data
 st.subheader("Shapefile Data")
-st.write(gdf[gdf['AreaName'] == selected_area])
+st.write(gdf[gdf['Area_Name'] == selected_area])
 
 
 # ======================== Adjusted Visualizations ========================
