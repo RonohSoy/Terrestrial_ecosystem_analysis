@@ -1,1 +1,1 @@
-[NatureScope.ke](http://localhost:8501/)
+[NatureScope.Ke](http://localhost:8501/)
