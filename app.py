@@ -67,10 +67,44 @@ st.subheader(f"Map of {selected_area} in {selected_year}")
 st.image("WhatsApp Image 2025-02-27 at 09.50.30 AM.jpg", caption="Kenyan Biodiversity", use_container_width=True)
 
 # Show area data
-st.subheader("Shapefile Data")
-st.write(gdf[gdf['Area_Name'] == selected_area])
+# st.subheader("Shapefile Data")
+# st.write(gdf[gdf['Area_Name'] == selected_area])
+# Show area map with highlighted selection
+st.subheader("Selected Area Map")
 
+# Get selected geometry
+selected_geom = gdf[gdf["Area_Name"] == selected_area]
 
+# Initialize folium map centered on Nairobi, Kenya with appropriate zoom
+m = folium.Map(location=[1.2921, 36.8219], zoom_start=6)
+
+# Plot all areas in light gray
+folium.GeoJson(
+    gdf,
+    name="All Areas",
+    style_function=lambda feature: {
+        "fillColor": "#cccccc",
+        "color": "gray",
+        "weight": 1,
+        "fillOpacity": 0.1,
+    },
+).add_to(m)
+
+# Highlight selected area in green
+folium.GeoJson(
+    selected_geom,
+    name="Selected Area",
+    style_function=lambda feature: {
+        "fillColor": "green",
+        "color": "darkgreen",
+        "weight": 3,
+        "fillOpacity": 0.6,
+    },
+    tooltip=folium.GeoJsonTooltip(fields=["Area_Name"]),
+).add_to(m)
+
+# Render the map in Streamlit
+folium_static(m)
 # ======================== Adjusted Visualizations ========================
 
 df_area = df_reshaped[df_reshaped["Area_Name"] == selected_area]
@@ -130,5 +164,3 @@ with st.expander('About', expanded=True):
             Biodiversity is key to our livelihood and a primary concern to most if not all. There's still more to be done.
             ''')
 axes[1].set_title("Distribution of Final Label")
-
-
